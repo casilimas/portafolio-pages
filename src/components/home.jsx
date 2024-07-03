@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       <h1 className="palabrabajobarra">Home</h1>
       <div className="caja-azul">
-      <img src={foto} alt="Foto de Freddy Casilimas" className="foto-perfil" /> {/* Foto de perfil */}
+        <img src={foto} alt="Foto de Freddy Casilimas" className="foto-perfil" /> {/* Foto de perfil */}
         <h3 className="nombre-caja-azul">Freddy Casilimas</h3>{" "}
         <h4 className="profesion-caja-azul">Desarrollador web</h4>{" "}
         <a
@@ -16,33 +16,16 @@ const Home = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src={linkedinIcon}
-            alt="LinkedIn"
-            className="linkedin-icon"
-          />
+          <img src={linkedinIcon} alt="LinkedIn" className="linkedin-icon" />
         </a>
-
-
 
         <a
           href="https://www.instagram.com/freddycasilimas/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src={instagramIcon}
-            alt="Instagram"
-            className="instagram-icon"
-          />
+          <img src={instagramIcon} alt="Instagram" className="instagram-icon" />
         </a>
-
-
-
-
-
-
-
 
         <a href="https://casilimas.github.io/portafolio-pages/curriculun.pdf" download className="boton-descargar-cv">
           Descargar CV

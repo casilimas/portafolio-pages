@@ -26,7 +26,7 @@ const Block = () => {
             className="instagram-icon"
           />
         </a>
-        <a href="/curriculun.pdf" download className="boton-descargar-cv">Descargar CV</a> 
+        <a href="https://casilimas.github.io/portafolio-pages/curriculun.pdf"  download className="boton-descargar-cv">Descargar CV</a> 
       </div>
       <div className="caja-blanca">
         <img src={marioBross} alt="Descripción de la imagen" className="imagen-caja-blanca" />

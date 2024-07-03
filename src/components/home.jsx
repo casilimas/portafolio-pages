@@ -44,7 +44,7 @@ const Home = () => {
 
 
 
-        <a href="/curriculun.pdf" download className="boton-descargar-cv">
+        <a href="https://casilimas.github.io/portafolio-pages/curriculun.pdf" download className="boton-descargar-cv">
           Descargar CV
         </a>
       </div>

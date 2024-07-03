@@ -1,0 +1,350 @@
+body {
+  background-color: #faf9f9; /* Color de fondo gris claro */
+}
+
+
+.contenido-scroll {
+  width: max-content; /* Hacer que el contenido sea tan ancho como sea necesario */
+  white-space: nowrap; /* Evitar el ajuste de línea */
+}
+
+
+/* ______________________ estilos de palabras flotadoras ___________________ */
+.palabrabajobarra {
+  font-size: 13px; /* Tamaño pequeño */
+  color: rgb(57, 132, 243); /* Color azul */
+  position: relative; /* Habilita la posición relativa para usar las transformaciones */
+  left: 60px; /* Mueve la palabra 50px hacia la derecha */
+  top: -15px; /* Mueve la palabra 50px hacia arriba */
+  animation: mover 1s infinite alternate; /* Animación para mover la palabra */
+}
+
+/* Define la animación */
+@keyframes mover {
+  from {
+      transform: translateY(0); /* Inicia desde la posición inicial */
+  }
+  to {
+      transform: translateY(20px); /* Mueve hacia abajo 8px */
+  }
+}
+
+@media (max-width: 2000px) {
+  .palabrabajobarra {
+    top: 35px; /* Ajusta la posición para estar 50px más abajo que antes */
+  }
+}
+
+
+
+
+/* App.css */
+.caja-azul {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(57, 132, 243);
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+  transform: translate(190px, -442px);
+  border-top-left-radius: 40px; /* Redondea la esquina superior izquierda con un radio de 20px */
+  border-top-right-radius: 0px; /* Redondea la esquina superior derecha con un radio de 10px */
+  border-bottom-left-radius: 40px; /* Redondea la esquina inferior izquierda con un radio de 15px */
+  border-bottom-right-radius: 0px; /* Redondea la esquina inferior derecha con un radio de 5px */
+}
+  
+
+
+.caja-blanca {
+  width: 800px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+  transform: translate(440px, -962px);
+  border-top-left-radius: 40px; /* Redondea la esquina superior izquierda con un radio de 20px */
+  border-top-right-radius: 40px; /* Redondea la esquina superior derecha con un radio de 10px */
+  border-bottom-left-radius: 40px; /* Redondea la esquina inferior izquierda con un radio de 15px */
+  border-bottom-right-radius: 40px; /* Redondea la esquina inferior derecha con un radio de 5px */
+  border: 1px solid rgb(57, 132, 243); /* Borde muy sutil de color negro con transparencia */
+}
+
+
+
+
+
+
+
+.boton-descargar-cv {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dfe5eb;
+  color: #4c0be2;
+  text-decoration: none;
+  border-radius: 20px;
+  transform: translate(-20px, 80px);
+}
+
+.boton-descargar-cv:hover {
+  background-color: rgb(208, 211, 216);
+}
+
+
+
+/* Estilos para el nombre */
+.nombre-caja-azul {
+  font-size: 24px; /* Tamaño de fuente para el nombre */
+  color: rgb(5, 5, 5); /* Color del texto */
+  margin-bottom: 5px; /* Margen inferior */
+  transform: translate(35px, 40px);
+}
+
+/* Estilos para la profesión */
+.profesion-caja-azul {
+  font-size: 18px; /* Tamaño de fuente para la profesión */
+  color: #000000; /* Color del texto */
+  transform: translate(50px, 40px);
+}
+
+
+
+.linkedin-icon {
+
+  transform: translate(80px, 40px);
+  
+}
+
+
+
+
+.instagram-icon {
+
+  transform: translate(90px, 40px);
+  
+}
+
+
+
+/* Estilos para el nombre */
+.nombre-caja-blanca {
+ 
+  font-size: 24px; /* Tamaño de fuente para el nombre */
+  color: rgb(5, 5, 5); /* Color del texto */
+  margin-bottom: 5px; /* Margen inferior */
+  transform: translate(310px, 200px);
+}
+
+
+.profesion-caja-blanca {
+  
+  font-size: 24px; /* Tamaño de fuente para el nombre */
+  
+  margin-bottom: 5px; /* Margen inferior */
+  transform: translate(300px, 210px);
+  
+}
+
+.cv {
+  width: 800px;
+  height: 500px;
+  /* Otros estilos personalizados */
+}
+
+
+
+/* scroll */
+
+.caja-blanca {
+  width: 800px; /* Ancho de la caja */
+  max-height: 500px; /* Altura máxima de la caja */
+  overflow-y: auto; /* Permitir el desbordamiento vertical si es necesario */
+  padding-right: 10px; /* Añadir espacio para la barra de desplazamiento */
+  scrollbar-width: none; /* Ocultar las barras de desplazamiento del navegador */
+}
+
+/* Estilos personalizados para la barra de desplazamiento */
+.caja-blanca::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+.caja-blanca::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color del pulgar de la barra de desplazamiento */
+}
+
+.caja-blanca::-webkit-scrollbar-track {
+  background-color: #eee; /* Color del fondo de la barra de desplazamiento */
+}
+
+/* Opción adicional: ocultar la barra de desplazamiento cuando no esté en uso */
+.caja-blanca::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+.imagenUno {
+  transform: translate(114px, 20px);
+}
+
+
+
+.mongocompass {
+  transform: translate(114px, 40px);
+}
+
+.imagen-caja-blanca{
+  transform: translate(56px, 60px);
+  border-radius: 40px;
+
+}
+
+
+.captcha-label {
+  /* Aquí puedes agregar tus estilos */
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block; /* Hace que el label se comporte como un bloque */
+}
+
+
+
+ /* evita el copy */
+
+
+.no-select {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Safari */
+}
+
+.no-select {
+  margin-left: 25%;
+  color: #4c01fa;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+
+
+
+
+.input {
+  width: 50%; /* Ancho completo del contenedor */
+  padding: 10px; /* Espaciado interno */
+  margin: 10px 0; /* Espaciado externo */
+  margin-left: 25%;
+  margin-right: 40%;
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto total del elemento */
+  border: 1px solid #7dc3fc; /* Borde */
+  border-radius: 13px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+  font-family: Arial, sans-serif; /* Fuente */
+  transition: border-color 0.3s; /* Transición suave para el cambio de color del borde */
+}
+
+.input:focus {
+  border-color: #66afe9; /* Color del borde al enfocar */
+  outline: none; /* Quita el borde de enfoque predeterminado del navegador */
+}
+
+.input::placeholder {
+  color: #aaa; /* Color del texto del placeholder */
+}
+
+
+
+
+
+
+
+
+
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.icon-image {
+  width: 20px; /* Ajusta el tamaño de la imagen según sea necesario */
+ 
+}
+
+
+.icon-button {
+  margin-left: 49%;
+  transition: background-color 0.3s;
+  margin-top: 15px;
+
+}
+
+
+.correo-desplegado {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;    /* Centra verticalmente */
+  height: 10vh; 
+  color: #4c0be2;
+  font-size: 20px;
+}
+
+
+
+
+
+
+.boton-enviar {
+  background-color: rgb(57, 132, 243); /* Color de fondo */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Espaciado interno (padding) */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Display en línea */
+  font-size: 16px; /* Tamaño de la fuente */
+  margin-left: 43%;
+  margin-top: 3%;
+  cursor: pointer; /* Cursor de mano */
+  border-radius: 12px; /* Bordes redondeados */
+  transition: background-color 0.3s; /* Transición para el cambio de color */
+}
+
+
+
+.titulo-contacto-contacto {
+  text-align: center;
+  margin-top: 20%;
+}
+
+
+.foto-perfil {
+  margin-top: 40px;
+  margin-left: 50px;
+  
+}
+
+
+.foto-perfil-dos {
+ 
+  margin-left: 70%;
+  margin-top: 5%;
+}
+
+.texto-sobremi{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.imagen-backend{
+  margin-top: 50px;
+  margin-left: 15%;
+
+}

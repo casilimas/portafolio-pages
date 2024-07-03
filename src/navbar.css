@@ -1,0 +1,77 @@
+/* Estilos para el contenedor de la barra de navegación */
+.nav-container {
+    height: 50vh; /* Altura ajustada a la mitad de la ventana de visualización */
+    width: 40px; /* Ancho fijo para la barra de navegación */
+    background-color: #fffefe; /* Color de fondo blanco */
+    display: flex;
+    flex-direction: column; /* Orientación vertical de los enlaces */
+    justify-content: center; /* Centra los elementos verticalmente */
+    border: 3px solid #d1dffd; /* Borde con color más claro */
+    border-radius: 25px; /* Esquinas redondeadas */
+    margin-top: 120px; /* Mueve el contenedor hacia abajo */
+    margin-bottom: 20px; /* Agrega espacio por debajo */
+    margin-left: 50px; /* Mueve el contenedor hacia la derecha */
+    margin-right: 10px; /* Agrega espacio a la derecha */
+}
+
+/* Estilos para la lista de enlaces */
+.nav-links {
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el padding por defecto */
+    width: 100%; /* Asegura que la lista ocupe el ancho completo del contenedor */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para cada ítem de la lista */
+.nav-item {
+    margin: 22px 0; /* Espacio vertical entre elementos */
+}
+
+/* Estilos para los enlaces */
+
+.nav-link:hover img {
+    transform: scale(1.3); /* Aumenta el tamaño de la imagen al pasar el mouse */
+    transition: transform 0.3s ease; /* Suaviza la transición */
+}
+
+
+
+
+
+
+
+
+.nav-item {
+  position: relative;
+  
+}
+
+
+
+.nav-image {
+  width: 25px; /* ajusta según sea necesario */
+  height: 25px; /* ajusta según sea necesario */
+}
+
+.tooltip {
+  visibility: hidden;
+  background-color: rgb(57, 132, 243);
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  left: 50px; /* ajusta según sea necesario para que se posicione fuera del contenedor */
+  opacity: 0;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+}
+
+
+.nav-item:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+

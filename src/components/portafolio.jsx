@@ -66,7 +66,7 @@ const Portafolio = () => {
           </a>
         </div>
         <div className="imagen-backend">
-          <a href="https://tu-dominio-github-pages" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/casilimas/Back-api" target="_blank" rel="noopener noreferrer">
             <img src={imagenBackend} alt="Backend" className="backend-image" />
           </a>
         </div>

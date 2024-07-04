@@ -61,7 +61,7 @@ const Portafolio = () => {
           ></iframe>
         </div>
         <div>
-          <a href="https://tu-dominio-github-pages" target="_blank" rel="noopener noreferrer">
+          <a href="https://casilimas.github.io/front-pages/" target="_blank" rel="noopener noreferrer">
             <img src={imagenCompass} alt="MongoCompass" className="mongocompass" />
           </a>
         </div>

@@ -2,6 +2,8 @@ import "../App.css"; // Importa tus estilos CSS
 import foto from '/images/fotoPerfil.png'; // Importa la foto
 import linkedinIcon from '/images/linkedin.png';
 import instagramIcon from '/images/Instagram.jpg';
+import nodeCertificado from '/images/nodeCertificado.png'; // Importa el certificado de Node
+import reactCertificado from '/images/reactCertificado.png'; // Importa el certificado de React
 
 const Curriculum = () => {
   return (
@@ -34,6 +36,15 @@ const Curriculum = () => {
 
       <div className="caja-blanca">
         <embed src="https://casilimas.github.io/portafolio-pages/curriculun.pdf" className="cv" type="application/pdf" />
+      
+
+      <div className="certificaciones">
+        <h2 className="titulo-certificaciones">Certificaciones</h2>
+        <div className="certificaciones-imagenes">
+          <img src={nodeCertificado} alt="Certificado de Node.js" className="certificado-node" />
+          <img src={reactCertificado} alt="Certificado de React" className="certificado-react" />
+        </div>
+      </div>
       </div>
     </div>
   );

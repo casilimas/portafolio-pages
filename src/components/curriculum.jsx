@@ -36,15 +36,16 @@ const Curriculum = () => {
 
       <div className="caja-blanca">
         <embed src="https://casilimas.github.io/portafolio-pages/curriculun.pdf" className="cv" type="application/pdf" />
-      
 
-      <div className="certificaciones">
-        <h2 className="titulo-certificaciones">Certificaciones</h2>
-        <div className="certificaciones-imagenes">
-          <img src={nodeCertificado} alt="Certificado de Node.js" className="certificado-node" />
-          <img src={reactCertificado} alt="Certificado de React" className="certificado-react" />
+        <div className="certificaciones">
+          <h2 className="titulo-certificaciones">Certificaciones</h2>
+          <div className="certificaciones-imagenes">
+            <img src={nodeCertificado} alt="Certificado de Node.js" className="certificado-node" />
+            <h3 className="certificado-nodejs"><a href="https://www.udemy.com/certificate/UC-f51b301c-068b-4c15-b874-34d6b8b21fd2/" target="_blank" rel="noopener noreferrer">Certificado de Node.js en Udemy</a></h3>
+            <img src={reactCertificado} alt="Certificado de React" className="certificado-react" />
+            <h3 className="certificado-reactvite"><a href="https://www.udemy.com/certificate/UC-f51b301c-068b-4c15-b874-34d6b8b21fd2/" target="_blank" rel="noopener noreferrer">Certificado de React en Udemy</a></h3>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   );

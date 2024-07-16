@@ -45,15 +45,15 @@ const SobreMi = () => {
           <h1>Sobre mí</h1>
           <h2>Freddy Casilimas</h2>
           <p>
-            Soy Desarrollador Web Full Stack con una fuerte pasión por la tecnología y la programación. He adquirido experiencia a través de proyectos personales, utilizando tecnologías como React, Node.js.
+            Soy Desarrollador Web Full Stack con una fuerte pasión por la tecnología y la programación. He adquirido experiencia a través de proyectos personales y Cursos en linea utilizando tecnologías como React, Node.js.
           </p>
           <h3>Experiencia Profesional</h3>
           <p>
-            Aunque no poseo un título formal en desarrollo web, he trabajado en diversos proyectos que han enriquecido mis habilidades y conocimientos en este campo.
+            Aunque no poseo esperiencia en proyectos reales, he trabajado en diversos proyectos personales  que han enriquecido mis habilidades y conocimientos en este campo.
           </p>
           <ul>
             <li>
-              <strong>Proyecto Personal</strong>: He creado una aplicación de gestión de tareas utilizando React y Node.js, la cual ha sido efectiva en sus pruebas.
+              <strong>Proyecto Personal</strong>: He creado una aplicaciónes de gestión de tareas utilizando React y Node.js, la cual ha sido efectiva en sus pruebas.
             </li>
           </ul>
           <h3>Habilidades</h3>

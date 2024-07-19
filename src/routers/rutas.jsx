@@ -1,7 +1,4 @@
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import Home from '../components/home';
 import NavBar from '../components/navbar';
@@ -23,11 +20,10 @@ const Rutas = () => {
         <Route path="/block" element={<Block />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/curriculum" element={<Curriculum />} />
+        <Route path="*" element={<Navigate to="/" />} /> {/* Ruta por defecto */}
       </Routes>
     </Router>
   );
 };
 
-
 export default Rutas;
-

@@ -35,7 +35,9 @@ const Curriculum = () => {
       </div>
 
       <div className="caja-blanca">
-      <embed src="/portafolio-pages/curriculun.pdf" className="cv" type="application/pdf" />
+      <embed src="https://casilimas.github.io/portafolio-pages/curriculun.pdf" className="cv" type="application/pdf" />
+
+
 
 
         <div className="certificaciones">

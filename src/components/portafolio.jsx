@@ -1,21 +1,19 @@
-import "../App.css"; // Importa tus estilos CSS
+import "../App.css"; 
 import imagenCompass from "/images/portadaApi.png";
 import linkedinIcon from '/images/linkedin.png';
-
-
-
 import instagramIcon from '/images/Instagram.jpg';
-import foto from '/images/fotoPerfil.png'; // Importa la foto
-import imagenBackend from "/images/backend.png"; // Importa la imagen para el backend
+import foto from '/images/fotoPerfil.png'; 
+import imagenBackend from "/images/backend.png"; 
+import apiDogar from '/images/apiDogar.png'; 
 
 const Portafolio = () => {
   return (
     <div>
       <h1 className="palabrabajobarra">Portafolio</h1>
       <div className="caja-azul">
-        <img src={foto} alt="Foto de Freddy Casilimas" className="foto-perfil" /> {/* Foto de perfil */}
-        <h3 className="nombre-caja-azul">Freddy Casilimas</h3> {/* H3 con el nombre */}
-        <h4 className="profesion-caja-azul">Desarrollador web</h4> {/* H4 con la profesión */}
+        <img src={foto} alt="Foto de Freddy Casilimas" className="foto-perfil" /> 
+        <h3 className="nombre-caja-azul">Freddy Casilimas</h3> 
+        <h4 className="profesion-caja-azul">Desarrollador web</h4> 
         <a
           href="https://www.linkedin.com/in/freddy-casilimas-38116314b/"
           target="_blank"
@@ -39,16 +37,16 @@ const Portafolio = () => {
           />
         </a>
 
-
-
         <a href="https://casilimas.github.io/portafolio-pages/curriculun.pdf" download className="boton-descargar-cv">
           Descargar CV
         </a>
-
-
-
       </div>
       <div className="caja-blanca">
+      <div className="imagen-api-dogar">
+          <a href="https://casilimas.github.io/Rotacion-Auxiliares/" target="_blank" rel="noopener noreferrer">
+            <img src={apiDogar} alt="Rotacion Auxiliares" className="api-dogar-image" />
+          </a>
+        </div>
         <div className="imagenUno">
           <iframe
             width="583"
@@ -70,12 +68,11 @@ const Portafolio = () => {
             <img src={imagenBackend} alt="Backend" className="backend-image" />
           </a>
         </div>
+       
+        
       </div>
     </div>
   );
 };
 
 export default Portafolio;
-
-
-
